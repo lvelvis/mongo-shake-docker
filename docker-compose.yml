@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   mongoshake:
-    image: mongoshake:v2.4.19
+    image: mongoshake:latest
     build:
       dockerfile: ./Dockerfile
       context: .
